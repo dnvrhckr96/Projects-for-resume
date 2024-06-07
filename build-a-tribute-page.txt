@@ -1,0 +1,179 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title id='title'>Harriet Tubman</title>
+    <link rel='stylesheet' href='styles.css'>
+  </head>
+  <body>
+    <main id='main'>
+      <h1>Harriet Tubman</h1>
+      <p>The woman who freed the slaves</p>
+        <figure id='img-div'>
+          <img id='image' src='https://www.womenshistory.org/sites/default/files/styles/main_image/public/images/2017-07/HarrietTubmanSquare.jpg?itok=bTOKy2mR' width='75%' alt='picture of Harriet Tubman'>
+          <figcaption id='img-caption'>
+            Photograph of Harriet Tubman
+          </figcaption>
+        </figure>
+        <section id='tribute-info'>
+      <h2>Some facts about Harriet Tubman's life:</h2>   
+      <ul>
+        <li>Born into chattel slavery in Maryland, to Harriet ("Rit") Green and Ben Ross. Her mother named her Araminta</li>
+        <li>Historical records differ as to her birth date, but the best guess is 1820-22</li>
+        <li>She spent her childhood and adolescence on the Brodess plantation in Dorchester County, MD</li>
+        <li>At some point, "Rit" stopped Edward Brodess from selling her youngest son, Moses, by hiding him for months amongst the greater AA community, which at the time included enslaved peoples and freedmen. Historians agree this event influenced Tubman's belief in resistance</li>
+        <li>As an adolescent, she received a traumatic head injury when an overseer threw a 2lb metal weight at another enslaved person and hit her instead. She would struggle with this injury for the rest of her life</li>
+        <li>In 1844, Araminta married a freedman named John Tubman
+        </li>
+        <li>After her marriage, she adopted her mother's first name, Harriet, possibly for religious purposes</li>
+        <li>Brodess tried to sell her in 1849 after she fell ill, threatening to break the entire family apart, so she finally decided to escape</li>
+        <li>Her husband tried to dissuade her from escaping, so she left with two brothers under the cover of nightfall. Her brothers had misgivings about escaping and turned back, so she returned with them; that was her first attempt</li>
+        <li>Soon afterward she escaped again, but without her brothers, hinting at her intentions by singing a cryptic song to her fellow enslaved friend, Mary.</li>
+        <li>She followed the North Star to Pennsylvania and, with help from the Quaker community, finally ended up in Philadelphia. She travelled 90 miles by foot, which would have taken up to five weeks.</li>
+        <li>She collaborated with John Brown and would have participated at Harper's Ferry but for extenuating circumstances. It's unlcear what those were, but some historians believe she was sick. Another theory is she backed out last minute as she came to share Frederick Douglass's misgivings about the mission</li>
+      </ul>
+      <blockquote cite='https://parade.com/1331514/kaigreen/harriet-tubman-quotes/#:~:text=%E2%80%9CFor%20no%20man%20should%20take,would%20let%20them%20take%20me.%E2%80%9D'>
+      <p>“For no man should take me alive; I should fight for my liberty as long as my strength lasted, and when the time came for me to go, the Lord would let them take me.”</p>
+      <cite>--Harriet Tubman</cite>
+      </blockquote>
+      <h2>Read more about this utter badass at her <a id='tribute-link' href='https://en.wikipedia.org/wiki/Harriet_Tubman#' target='_blank'>Wikipedia page</a>, and do it now. Or else.</h2>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  display: block;
+  view-transition-name: root;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  display: block;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+head {
+  display: none;
+}
+
+#main {
+  display: block;
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.17rem;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+figcaption {
+  display: block;
+}
+
+section {
+  display: block;
+}
+
+blockquote {
+  display: block;
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+ul {
+  display: block;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+  list-type-style: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  margin: 16px 0;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+** end of undefined **
+
